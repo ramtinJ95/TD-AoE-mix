@@ -22,7 +22,6 @@ public class ResourceManager : MonoBehaviour
             resourceAmountDictionary[resourceType] = 0;
         }
 
-        TestLogResoureAmountDictionary();
     }
 
     private void Update()
@@ -31,7 +30,6 @@ public class ResourceManager : MonoBehaviour
         {
             ResourceTypeListSO resourceTypeList = Resources.Load<ResourceTypeListSO>(typeof(ResourceTypeListSO).Name);
             AddResource(resourceTypeList.list[0], 2);
-            TestLogResoureAmountDictionary();
         }  
     }
 
@@ -53,7 +51,6 @@ public class ResourceManager : MonoBehaviour
          * event and that would return a null value. So this function is only invoked if the value is not null!
          */
         OnResourceAmountChanged?.Invoke(this, EventArgs.Empty);
-        TestLogResoureAmountDictionary();
     }
 
     public int GetResourceAmount(ResourceTypeSO resourceType)

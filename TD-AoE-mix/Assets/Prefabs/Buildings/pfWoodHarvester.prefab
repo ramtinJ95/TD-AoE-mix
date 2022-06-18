@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 6351342555263074}
   - component: {fileID: -1990512440287116403}
   - component: {fileID: 2627249338963938280}
+  - component: {fileID: 3294793251101881330}
+  - component: {fileID: -5224559402687797871}
   m_Layer: 0
   m_Name: pfWoodHarvester
   m_TagString: Untagged
@@ -59,6 +61,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buildingType: {fileID: 11400000, guid: e0b7c8c266b524f55bc59da8e94e7cad, type: 2}
+--- !u!210 &3294793251101881330
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5116163663245449169}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &-5224559402687797871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5116163663245449169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 840bed093b1ca4ee9a1411b5aa42710d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runOnce: 1
 --- !u!1 &7602880964749030922
 GameObject:
   m_ObjectHideFlags: 0
